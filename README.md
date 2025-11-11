@@ -6,7 +6,7 @@ The **Neural Sieve Cascade (NSC)** is a three-stage malicious URL detection fram
 | Sieve | Model Type | Purpose | URLs Handled |
 |------|------------|---------|--------------|
 | **Sieve-1** | Logistic Regression (TF-IDF) | Fast filtering of clear benign/malicious URLs | ~75% |
-| **Sieve-2** | (CNN + LSTM + BiLSTM) Ensemble (Soft Voting) | Handles structurally ambiguous and obfuscated URLs | ~14% |
+| **Sieve-2** | (CNN + LSTM + BiLSTM) Ensemble-Soft Voting | Handles structurally ambiguous and obfuscated URLs | ~14% |
 | **Sieve-3** | TinyBERT Transformer | Resolves the hardest adversarial/phishing cases | ~11% |
 
 This cascaded approach significantly reduces false negatives — especially for **phishing** and **malware** URLs — and enables **real-time cybersecurity defense**.
@@ -80,7 +80,7 @@ Soft voting ensures robustness across attack styles.
 | LSTM | 90.48 |
 | BiLSTM | 89.93 |
 | Transformer (TinyBERT) | 94.86 |
-| **Neural Sieve Cascade (Final)** | **97.92** ✅ |
+| **Neural Sieve Cascade (Final)** | **97.28** ✅ |
 
 ### Final Confusion Matrix
 <p align="center">
