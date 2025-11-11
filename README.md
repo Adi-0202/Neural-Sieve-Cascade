@@ -101,6 +101,15 @@ False negatives reduced by:
 - **15% in phishing**
 - **12% in malware**
 
+## 📄 Research Paper (Unpublished)
+This project is currently part of an **unpublished research paper** titled:
+
+**"Layered Deep Learning Approach for Malicious URL Detection via Neural Sieve Cascade"**
+
+The paper is currently **under review** and cannot be publicly shared yet.  
+If you are a researcher and would like to request access, please contact me.
+
+
 ---
 
 ## 🚀 How to Run
